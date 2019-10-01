@@ -1,0 +1,26 @@
+{
+  "name": "interacting-with-a-contract",
+  "version": "1.0.0",
+  "description": "SC interaction JS app",
+  "main": "app.js",
+  "dependencies": {
+    "web3quorum": "~0.20.4"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "start": "watchify app.js -o bundle.js -v"
+  },
+  "author": "facuspagnuolo",
+  "license": "ISC"
+}
