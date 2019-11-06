@@ -1,0 +1,15 @@
+{
+  "name": "openzeppelin-helpers-dep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@openzeppelin/test-helpers": "github:OpenZeppelin/openzeppelin-test-helpers",
+    "openzeppelin-test-helpers": "^0.4.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
